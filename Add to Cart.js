@@ -1,3 +1,4 @@
+<script>
 $('.select-checkbox').change(function(){
 		$('#modal-selected-items-title').html('Are you sure you want to delete the selected item(s)? ');
 		$('#modal-selected-items-button').show();
@@ -10,3 +11,4 @@ $('.select-checkbox').change(function(){
 			$('#modal-selected-items').find('#'+bannerID).remove();
 		}
 	});
+</script>
